@@ -31,7 +31,8 @@ module.exports = (function (config) {
                   fallback: "style-loader",
                   use: ["css-loader","sassjs-loader"]
               })
-            },{
+            },
+            {
               test: /\.css$/,
               loader: ExtractTextPlugin.extract({
                   fallback: "style-loader",
